@@ -1,9 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-//Console.WriteLine("Hello, World!");
+﻿
 
 using Group1Console2;
 
-Console.WriteLine("AAB COllege");
+Console.WriteLine("AAB College");
 
 //int numri;
 //numri = 10;
@@ -65,19 +64,19 @@ Console.WriteLine("AAB COllege");
 //KontrolloNivelin(6);
 
 Student studenti1;
-studenti1= new Student("Kastriot","Gjoka","Mitrovice");
-studenti1.SayHello();
-
-Student studenti2 = new Student("Blend","Krasniqi","Prishtine");
-studenti2.SayHello();
-
-var profesori = new Profesor("Leron","Berisha");
-profesori.SayHello();
+// studenti1= new Student("Kastriot","Gjoka","Mitrovice");
+// studenti1.SayHello();
+//
+// Student studenti2 = new Student("Blend","Krasniqi","Prishtine");
+// studenti2.SayHello();
+//
+// var profesori = new Profesor("Leron","Berisha");
+// profesori.SayHello();
 
 
 List<Person> personat = new List<Person>();
 personat.Add(new Student("Blend","Krasniqi","Prishtine"));
-personat.Add(new Profesor("Blend","Krasniqi"));
+personat.Add(new Profesor("Leron","Berisha"));
 
 foreach (var person in personat)
 {
